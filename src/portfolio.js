@@ -20,14 +20,14 @@ const seo = {
 //Home Page
 const greeting = {
   title: "John Kennedy Barsisa",
-  logo_name: "John Kennedy Barsisa",
+  logo_name: "JohnKennedyBarsisa",
   nickname: "JPK",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/JohnBarsisa",
+  githubProfile: "https://github.com/JohnBarsisa",
 };
 
 const socialMediaLinks = [
@@ -87,42 +87,118 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
           style: {
-            backgroundColor: "transparent",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Azure",
+          fontAwesomeClassname: "logos:microsoft-azure",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            color: "#0089D6",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "GCP",
+          fontAwesomeClassname: "vscode-icons:folder-type-gcp",
           style: {
-            backgroundColor: "transparent",
+            color: "#4285F4",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Docker",
+          fontAwesomeClassname: "vscode-icons:file-type-docker",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+        {
+          skillName: "Ansible",
+          fontAwesomeClassname: "logos:ansible",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "logos:terraform-icon",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "logos:jenkins",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Chef",
+          fontAwesomeClassname: "logos:chef",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "logos:linux-tux",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Go",
+          fontAwesomeClassname: "logos:go",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Bash",
+          fontAwesomeClassname: "logos:bash-icon",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
           },
         },
       ],
@@ -210,75 +286,48 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Machine Learning & AI",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
           style: {
-            color: "#4285F4",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
           style: {
-            color: "#FF9900",
+            backgroundColor: "white",
+            color: "#D00000",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
           style: {
-            color: "#0089D6",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Python",
+          fontAwesomeClassname: "vscode-icons:file-type-python",
           style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Mobile Development",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -287,29 +336,29 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#F24E1E",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
           style: {
             color: "#FF7C00",
           },
         },
         {
           skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          fontAwesomeClassname: "simple-icons:ios",
           style: {
             color: "#000000",
           },
@@ -368,17 +417,31 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "University of Portsmouth",
+      subtitle: "ELECTRONIC AND ELECTRICAL ENGINEERING MSc",
       logo_path: "iiitk_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2019 - 2020",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.port.ac.uk/",
+    },
+
+    {
+      title: "University of Portsmouth",
+      subtitle: "ELECTRONIC ENGINEERING BEng (Hons)",
+      logo_path: "iiitk_logo.png",
+      alt_name: "IIITDM Kurnool",
+      duration: "2015 - 2019",
+      descriptions: [
+        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+      ],
+      website_link: "https://www.port.ac.uk/",
     },
   ],
 };
